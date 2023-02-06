@@ -1,9 +1,12 @@
-body {
+
+html{
     background-image: url(https://i.imgur.com/q8Sckzz.jpg);
+    background-repeat:no-repeat;
     min-width: 300px;
-    width: 1340px;
+    width: 1330px;
     height: 1300px;
 }
+
 .grid {
     
     display: grid;
@@ -12,7 +15,7 @@ body {
     gap: 20px;
     min-width: 300px;
     width: 1330px;
-    height: 1300px;
+    height: 1500px;
     margin-top: 50px;
    
    
