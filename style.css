@@ -7,6 +7,7 @@ body {
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
+    min-width: 300px;
     width: 1330px;
     height: 1300px;
     margin-top: 50px;
@@ -21,7 +22,10 @@ body {
     font-family:  'Great Vibes', serif;
     font-size: 70px;
     font-weight: 700;
-    height: 150px;
+    min-height: 50px;
+    height: 150px ;
+    min-width: 300px;
+    width: 1330px;
     text-align: center;
     gap:10px;
 }
@@ -127,6 +131,7 @@ div.f {
     grid-row-end: 7;
     font-family: 'Courgette' ;
     font-size: 20px;
+    font-optical-sizing:auto;
 }
 .j {
     display: grid;
@@ -146,7 +151,9 @@ img.logo {
     
     margin: auto;
     height: 200px;
+    min-height: auto;
     width: 400px;
+    min-width: auto;
     display: grid;
     grid-column-start: 5 ;
     grid-column-end: 7 ;
@@ -160,4 +167,6 @@ img.logo {
 footer {
     background-color: #1f1e1e;
     height: 200px;
+    min-height: 50px;
+    min-width: auto;
 }
