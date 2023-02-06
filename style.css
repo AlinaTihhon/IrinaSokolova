@@ -2,11 +2,16 @@
 html{
     background-image: url(https://i.imgur.com/q8Sckzz.jpg);
     background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:top;
     min-width: 200px;
     width: 100%;
     height: 100%;
     margin: 0%;
     padding: 0%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 .grid {
@@ -19,6 +24,7 @@ html{
     width: 1330px;
     height: 1500px;
     margin-top: 50px;
+    
    
    
 }
@@ -26,8 +32,8 @@ html{
     display: grid;
     grid-column-start: 1;
     grid-column-end: 9;
-    color: rgb(216, 233, 187);
-    font-family:  'Great Vibes', serif;
+    color: rgb(249, 250, 247);
+    font-family: Lora, serif;
     font-size: 70px;
     font-weight: 700;
     min-height: 50px;
@@ -60,7 +66,7 @@ html{
     align-items: center;
     opacity: 0.8;
     font-weight: 900;
-    color:rgb(216, 233, 187);
+    color:rgb(249, 250, 247);
     margin: 20px;
     text-shadow: 0 -2px #122517;
     
@@ -76,7 +82,7 @@ html{
     justify-self: center;
     align-self: center;
     object-fit:fill;
-    font-family: 'Courgette';
+    font-family: Lora, serif;
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -93,7 +99,7 @@ html{
     grid-column-end: 3 ;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-family: 'Courgette' ;
+    font-family: Lora, serif ;
     font-size: 20px;
 }
 .d {
@@ -115,7 +121,7 @@ div.d {
     grid-column-end: 5 ;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-family: 'Courgette' ;
+    font-family: Lora, serif ;
     font-size: 20px;
 }
 .f {
@@ -137,7 +143,7 @@ div.f {
     grid-column-end: 7 ;
     grid-row-start: 6;
     grid-row-end: 7;
-    font-family: 'Courgette' ;
+    font-family: Lora, serif ;
     font-size: 20px;
     font-optical-sizing:auto;
 }
