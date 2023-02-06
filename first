@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <!--THIN FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+    <!--FONT FOR PHARAGRAPHES-->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+  
+<h1 class="welcome">Welcome to Irina Sokolova Web Page</h1>
+   
+    <!--GRID -->
+    <body>
+        
+    <div class="grid">
+        <div class="box a"><h2>About me</h2>
+            <p>I help people better understand themselves, take a fresh look at how they build their lives,
+                solve existing problems and understand the reasons for their occurrence.
+                In my work, I consider it important not only to solve specific problems and get rid of symptoms,
+                but also to improve the quality of life in general and self-understanding.
+                This makes a person more resistant to life's difficulties and is a prevention of the
+                recurrence of crises.</p></div>
+       
+        <div class="box c"><p>In simple words, the resource state is the presence of physical and
+            mental strength in a person to solve the upcoming tasks.</p>
+</div>
+        <div class="box d"></div>
+        <div class="box e"><p>Resource state - a certain reserve of energy that allows you to do everything
+            quickly and efficiently, while remaining in a good mood.</p>
+</div>
+        <div class="box f"></div>
+        <div class="box g"><p>In recent years, more and more people are beginning to take care of their psychological
+            health and listen to themselves. Meditations, various trainings and psychological
+            practices are becoming popular.</p></div>
+        <div class="box j"></div>
+    </div>
+    <div><footer>
+        <img class="box logo"  src="https://i.imgur.com/ysrdbAb.png">
+    </footer></div> 
+   
+</body>
+
+
+</html>
+body {
+    background-image: url(https://i.imgur.com/q8Sckzz.jpg);
+}
+.grid {
+    
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1330px;
+    height: 1300px;
+    margin-top: 50px;
+   
+   
+}
+.welcome {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    color: rgb(216, 233, 187);
+    font-family:  'Great Vibes', serif;
+    font-size: 70px;
+    font-weight: 700;
+    height: 150px;
+    text-align: center;
+    gap:10px;
+}
+
+.welcome {
+    
+    background-color: #424242;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    text-shadow: 0 -2px #122517;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(141, 138, 138, 0.25) inset, 0
+    2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: linear-gradient(#333333, #5b5e5f);
+}
+
+.box {
+    background-color: #424242;
+    border-radius: 20px;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    opacity: 0.8;
+    font-weight: 900;
+    color:rgb(216, 233, 187);
+    margin: 20px;
+    
+    
+
+}
+
+.a {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    justify-self: center;
+    align-self: center;
+    object-fit:fill;
+    font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 28px;
+    text-shadow: 0 -2px #122517;
+}
+
+
+
+
+.c {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-family: 'Courgette' ;
+    font-size: 20px;
+}
+.d {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+div.d {
+    background-image: url(https://i.imgur.com/rFCihb0.png);
+    background-position:center;
+    background-size: cover;
+}
+
+.e{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-family: 'Courgette' ;
+    font-size: 20px;
+}
+.f {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 5 ;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+div.f {
+    background-image: url(https://i.imgur.com/uXOZXRE.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.g {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 7 ;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    font-family: 'Courgette' ;
+    font-size: 20px;
+}
+.j {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 7 ;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+div.j {
+    background-image: url(https://i.imgur.com/JX33Dto.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+
+img.logo {
+    
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    display: grid;
+    grid-column-start: 5 ;
+    grid-column-end: 7 ;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #1f1e1e;
+    
+    
+   
+}
+footer {
+    background-color: #1f1e1e;
+    height: 200px;
+}
